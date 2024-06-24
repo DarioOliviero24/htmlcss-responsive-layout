@@ -28,6 +28,12 @@ html a {
 .white-bg {
     background-color: white;
 }
+.p{
+   margin-bottom: 20px;
+}
+.size{
+    width: 323px;
+}
 
 /* General */
 
@@ -37,36 +43,10 @@ html a {
     color: black;
     padding: 5px 15px;
 }
-
-.flex {
-    display: flex;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
 .container {
     width: 80%;
     margin: 0 auto;
-}
-
-.perc50{
-    max-width: 50%;
-}
-.perc100{
-    max-width: 100%;
-}
-.Size{
-    height: 300px;
-    min-width: 600px;
-}
-.Size2 {
-    height: 300px;
-    min-width: 300px;
-}
-.img{
-    max-width: 90%;
+    
 }
 
 /*HEADER*/
@@ -102,6 +82,7 @@ html a {
 }
 .my-row > .my-col {
     width: 100%;
+    
 }
 .my-row>.my-col-tablet-1-3 {
    width: calc(100% / 3);
@@ -112,20 +93,37 @@ html a {
 main > section {
     margin: 40px 0;
 }
+
 #intro .card{
     background-color: #B5DDFF;
     border-radius: 12px;
     padding: 10px;
+    
 }
-
+.card-description > div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: max-content;
+}
+.flex-property {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-image > img {
+    width: 50%;
+    
+}
 .button2{
     color: white;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 8px 25px;
     background-color: #0084FD;
+    margin-left: -3px;
+    
+    
 }
 .h3{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 25px;
     color: #0084FD;
 }
