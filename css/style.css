@@ -51,6 +51,23 @@ html a {
     margin: 0 auto;
 }
 
+.perc50{
+    max-width: 50%;
+}
+.perc100{
+    max-width: 100%;
+}
+.Size{
+    height: 300px;
+    min-width: 600px;
+}
+.Size2 {
+    height: 300px;
+    min-width: 300px;
+}
+.img{
+    max-width: 90%;
+}
 
 /*HEADER*/
 .height{
@@ -79,6 +96,36 @@ html a {
 }
 /*MAIN*/
 
-main .container>.my-row {
-    margin: 50px 0;
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-row > .my-col {
+    width: 100%;
+}
+.my-row>.my-col-tablet-1-3 {
+   width: calc(100% / 3);
+}
+.my-row>.my-col-tablet-2-3 {
+    width: calc((100% / 3) * 2);
+}
+main > section {
+    margin: 40px 0;
+}
+#intro .card{
+    background-color: #B5DDFF;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.button2{
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #0084FD;
+}
+.h3{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #0084FD;
 }
