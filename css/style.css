@@ -327,7 +327,7 @@ main .container>.my-row {
     line-height: 30px;
 }
 
-.about>.image-section>.quoted-image {
+.image-section{
     position: relative;
     width: max-content;
     
@@ -347,12 +347,12 @@ main .container>.my-row {
     margin: 40px 0 20px;
 }
 
-.quoted-image>.big-quote-icon {
+#quote-mark{
     position: absolute;
-    top: -5px;
-    right: -20px;
+    top: 25px;
+    right: -5px;
     font-size: 4rem;
-    line-height: 0;
+    color: #9792E4;
     
 }
 
